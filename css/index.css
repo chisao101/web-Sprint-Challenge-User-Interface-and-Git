@@ -80,10 +80,6 @@ header{
     align-items: center;
 }
 
-.logo{
-    
-}
-
 nav{
     display: flex;
     flex-wrap: wrap;
@@ -222,4 +218,38 @@ footer nav a {
     padding: 1rem;
     border-bottom: 1px dashed black;
     margin-bottom: 2rem;
+}
+
+.about-box-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 2.5rem;
+    justify-content: center;
+}
+
+.about-box{
+    padding: 1rem;
+    width: 350px;
+    border-bottom: 1px dashed black;
+}
+
+.about-box img{
+    width: 100%;
+    margin: .5rem;
+}
+
+.about-box h3{
+    margin: .5rem;
+}
+
+.about-box p{
+    margin: .5rem;
+}
+
+button{
+    padding: .5rem 2rem;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin: .5rem;
 }
