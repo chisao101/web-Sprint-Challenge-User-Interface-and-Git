@@ -98,7 +98,7 @@ nav a{
 }
 
 .hero img{
-    margin: 2rem 0;
+    margin: 1rem 0;
 }
 
 /* end header styles - logo and nav */
@@ -216,4 +216,10 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+.about-info{
+    padding: 1rem;
+    border-bottom: 1px dashed black;
+    margin-bottom: 2rem;
 }
